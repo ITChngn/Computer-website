@@ -1,0 +1,59 @@
+/* Header */
+.your-header-class.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000; /* Adjust the z-index as needed */
+  /* Additional styles for the sticky header go here */
+}
+.header-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: #e0e0e0;
+  color: black;
+  padding: 7px 7rem;
+}
+
+/* ... (other styles remain the same) */
+
+.header-bar img {
+  width: 100px;
+  object-fit: contain;
+}
+.header-bar p {
+  padding-left: 10px;
+  font-size: small;
+}
+.header-search {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding-left: 20px;
+}
+#cart-icon {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+#user-icon {
+  width: 20px;
+  height: 20px;
+  color: black;
+}
+.user-container {
+  display: flex;
+  align-items: center;
+  margin-left: 5rem;
+}
+
+.cart-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20rem;
+}
+.narbar-link {
+  color: black;
+}
+.div-dropdown {
+}
